@@ -1,0 +1,250 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  margin: 0; /* Elimina el margen predeterminado del cuerpo */
+}
+
+.login-container {
+  width: 100vw; /* Ancho al 100% del viewport width */
+  height: 100vh; /* Altura al 100% del viewport height */
+  background-color:#D7FDFF;
+  /* padding: 2rem; */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-title{
+  display: flex;
+  align-items: center;
+  margin-top: -200px;
+}
+
+h1{
+  text-align: center;
+  padding-right: 445px;
+}
+
+.img{
+  padding-right: 300px;
+}
+
+.container-label {
+  width: 100%; /* Ancho al 100% del contenedor padre */
+  max-width: 500px; /* Máximo ancho de 500px */
+  background-color: #D7FDFF;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+
+.login-container input[type="text"]{
+    margin-top: 70px;
+    padding: 0.66rem;
+    border: 1px solid #ccc;
+    border-radius: 1000px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    margin-bottom: 1rem;
+    }
+    
+    .login-container input[type="submit"] {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    border-radius: 1000px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto; /* Esto centrará el botón horizontalmente */
+    margin-bottom: 1rem;
+    }
+
+/* Estilos para la aplicación */
+.contenedor-app{
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  display: flex;
+}
+
+.contenedor-izquierdo {
+  width: 450px;
+  height: 100vh; /* Altura al 100% del viewport height */
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagenes{
+  margin-top: 30px;
+  margin-left: 5px;
+}
+
+.contenedor-derecho {
+  width: 1300px;
+  height: 100vh; /* Altura al 100% del viewport height */
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.conversacion{
+  width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+  height: 99%;
+  overflow: hidden;
+  overflow-y: scroll;
+  scroll-behavior: auto;
+}
+
+.imgConv{
+  width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+  height: 99%; /* Ajusta la altura de la imagen al 100% del contenedor */
+  object-fit: cover; /* Escala la imagen para cubrir el contenedor sin distorsionarla */
+  overflow: hidden;
+}
+
+.escribir{
+  width: 800px;
+  height: 13%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  justify-content: center;
+  position: relative;
+}
+
+.imgMult{
+  left: 1px;
+  position: absolute;
+  height: 55px;
+  width: 80px;
+}
+
+.esc{
+  border-radius: 50px;
+  border-style: none;
+  color: black;
+  position: absolute;
+  width: 400px;
+  text-align: left;
+  height: 30px;
+}
+
+.boton{
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+  padding-left: 10px;
+  right: 30px;
+  position:absolute;
+  height: 50px;
+  width: 50px;
+}
+
+.enviar{
+  position:absolute;
+  right: 20px;
+}
+
+.chat-actual{
+  background-color: orange;
+  width: 90%;
+  height: 55%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border-radius: 50px;
+  border-style: groove;
+  overflow: hidden;
+  flex-flow: column;
+}
+
+.maux{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.chaters{
+  width: 90%;
+  height: 305px;
+  padding: 10px;
+  font-weight: bold;
+  text-align: left;
+  overflow: hidden;
+  overflow-y: scroll;
+  scroll-behavior: auto;
+}
+
+.cs{
+  margin:auto;
+  width: 80px;
+  height: 80px;
+  margin-top: 27px;
+  position: absolute;
+}
+
+.bcs{
+  background-color: transparent;
+  width: 50px;
+  height: 80px;
+  margin-top: 27px;
+  padding-left:10px;
+  position: absolute;
+  border-style: none;
+  cursor: pointer;
+}
+
+.err{
+  color: red;
+  text-align: center;
+}
+
+.cerrar-sesion{
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.box{
+  width: fit-content;
+  padding-top: 20px;
+  background-color:transparent;
+}
+
+.us{
+  color:black;
+  font-weight: bold;
+}
+
+.msj{
+  color: black;
+  margin-right: 10px;
+}
+
+.h{
+  color: green;
+  font-weight: bold;
+  
+}
+
+.manejo-msj{
+  display: flex;
+  align-items: center;
+  margin-top: -13px;
+}
+
+
+
+
+
+  

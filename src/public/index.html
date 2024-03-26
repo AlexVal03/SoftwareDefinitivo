@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HyperChat</title>
+    <link rel="stylesheet" href="css/App.css">
+</head>
+<body>
+    <!-- Contenido de la página de inicio de sesión -->
+    <div class="login-container" >
+        <div class="container-title">
+            <img class="img" src="img/HyperloopIS.png" alt="Hyperloop Inicio de Sesión">
+            <h1>Iniciar Sesión</h1>
+        </div>
+        <div class="container-label">
+            <form class="login">
+                    <input type="text" id="username" name="username" required placeholder="Usuario">
+                    <p class = "err"></p>
+                    <input type="submit" id="botonI" value="Iniciar sesión">
+            </form>
+        </div>
+        <h3 class="mensaje">Con una buena comunicación todo se vuelve HYPERguay</h3>
+    </div>
+
+    <!-- Contenido de la aplicación -->
+    <div class="contenedor-app">
+        <div class="contenedor-izquierdo">
+            <div class="imagenes">
+                <img class="img1" src="img/HyperloopAPP.png" alt="Hyperloop APP">
+            </div>
+            <div class="chat-actual">
+                <h4 class="maux">Usuarios</h4>
+                <div class="chaters">
+                    <!-- Aquí puedes agregar la lista de chats -->
+                </div>
+            </div>
+            <div class="cerrar-sesion">
+                <img class="cs" src="img/cs.png">
+                <button class="bcs"></button>
+            </div>
+        </div>
+        <div class="contenedor-derecho">
+            <div class="conversacion">
+                <img class="imgConv" src="img/FotoChat.png" alt="Conversación">
+                <!-- Aquí puedes agregar los mensajes de la conversación -->
+            </div>
+            <div class="escribir">
+                <img class="imgMult" src="img/BotonMult.png" alt="Botón Multiusos">
+                <input class="esc" type="text" placeholder="Escriba su mensaje...">
+                <img class="enviar" src="img/Enviar.png" alt="Enviar">
+                <boton class="boton"></boton>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="/socket.io/socket.io.js" charset="utf-8"></script> 
+    <script src="/js/main.js" charset="utf-8"></script> 
+
+</body>
+</html>
